@@ -84,16 +84,18 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '🤖' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '🤖'} ${user.registered === true ? user.name : username}*${(conn.user.jid == global.conn.user.jid ? '' : `\n*SOY SUB BOT DE: https://wa.me/${global.conn.user.jid.split`@`[0]}*`) || ''}
 
+⎔ *𖣐𝗛𝗮𝗺𝗶𝗹𝘆𝗕𝗼𝘁𖣐 || 𒅒 𝔹𝕣𝕒𝕤𝕙𝕜𝕚𝕖 𝔻𝕚𝕠𝕤 𒅒*
 \`\`\`${horarioFecha}\`\`\`
 ⎔ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
-⎔ *Registrados »* ${rtotalreg}/${totalreg}    
+⎔ *Registrados »»»* ${rtotalreg}/${totalreg}    
 ⎔ *${lenguajeGB['smsUptime']()}* ➺ _${uptime}_ 
 ⎔ *${lenguajeGB['smsVersion']()}* ➺ _${vs}_
 ⎔ *${lenguajeGB['smsMode']()} ➺* _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
 ⎔ *${lenguajeGB['smsBanChats']()}* ➺ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
 ⎔ *${lenguajeGB['smsBanUsers']()}* ➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_
 
-𒀽 *◜𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆́ℕ 𝔻𝔼𝕃 𝕌𝕊𝕌𝔸ℝ𝕀𝕆◞* 𒀽
+
+ *◜𝗜𝗠𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 𝗗𝗘𝗟 𝗨𝗦𝗨𝗔𝗥𝗜𝗢◞* 
 ⊜ *Tipo de registro »* ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo ' : 'Registro Rápido '}_` : '❌ _Sin registro_'}
 ⊜ *Mi estado »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
 ⊜ *Registrado »* ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
@@ -109,7 +111,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '🤖' : user.ge
 ⊜ *HamiCoins ➟* ${money} 𒀽
 ⊜ *Tokens ➟* ${joincount} 🪙
 ${readMore}
-*╭━〔𖥂 𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆́ℕ 𝔻𝔼 ℍ𝔸𝕄𝕀𝕃𝕐𝔹𝕆𝕋 𖥂〕⬣*
+*╭━〔𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡 𝗗𝗘 𝗛𝗔𝗠𝗜𝗟𝗬𝗕𝗢𝗧〕⬣*
 ┃𖣔➺ _${usedPrefix}cuentasgatabot | cuentasgb_
 ┃𖣔➺ _${usedPrefix}gruposgb | grupos | groupgb_
 ┃𖣔➺ _${usedPrefix}donar | donate_
@@ -134,7 +136,7 @@ ${readMore}
 ┃🖥️ _${usedPrefix}bcbot_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━〔𖥂 ℝ𝔼ℙ𝕆ℝ𝕋𝔸ℝ ℂ𝕆𝕄𝔸ℕ𝔻𝕆 𖥂〕━⬣*
+*╭━〔 𝗥𝗘𝗣𝗢𝗥𝗧𝗔𝗥 𝗖𝗢𝗠𝗔𝗡𝗗𝗢 〕━⬣*
 ┃ *Reporta con este comando de haber*
 ┃ *Fallas para poder Solucionar!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -158,7 +160,7 @@ ${readMore}
 ┃🎟️ _${usedPrefix}pass premium_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━〔𖥂 𝕁𝕌𝔼𝔾𝕆𝕊 - 𝕄𝕌𝕃𝕋𝕀 𝕁𝕌𝔼𝔾𝕆𝕊 𖥂〕━⬣*
+*╭━〔𝗝𝗨𝗘𝗚𝗢𝗦 - 𝗠𝗨𝗟𝗧𝗜 𝗝𝗨𝗘𝗚𝗢𝗦〕━⬣*
 ┃𖣐➺ _${usedPrefix}mates | matemáticas | math_
 ┃𖣐➺ _${usedPrefix}lanzar *cara* | *cruz*
 ┃𖣐➺ _${usedPrefix}ppt *piedra : papel : tijera*_
@@ -207,7 +209,7 @@ ${readMore}
 ┃🪄➺ _${usedPrefix}simsimi | bixby *texto*_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━━━[𖥂 𝔸𝕁𝕌𝕊𝕋𝔼𝕊 - ℂℍ𝔸𝕋𝕊 𖥂]━━━⬣*
+*╭━━━[𖥂𝗔𝗝𝗨𝗦𝗧𝗘𝗦-𝗖𝗛𝗔𝗧𝗦𖥂]━━⬣*
 ┃ *Configura si eres Propietario(a) y/o*
 ┃ *Admin!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -240,7 +242,7 @@ ${readMore}
 ┃☯ _${usedPrefix}on *:* off *sologrupos | gconly*_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━〔𖥂 𝔾ℝ𝕌ℙ𝕆 - ℝ𝔼𝕊𝕌𝕄𝔼ℕ 𖥂〕━⬣*
+*╭━〔 𝔾ℝ𝕌ℙ𝕆 - ℝ𝔼𝕊𝕌𝕄𝔼ℕ 〕━⬣*
 ┃ *Ahora puedes ver el resumen*
 ┃ *de configuracion de Grupos!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -249,7 +251,7 @@ ${readMore}
 ┃🧾➺ _${usedPrefix}vergrupo_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━[⬇️ 𝔻𝔼𝕊ℂ𝔸ℝ𝔾𝔸𝕊 | 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻𝕊 ⬇️]━⬣*
+*╭━[ 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 | 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗦 ]━⬣*
 ┃𒁈➺ _${usedPrefix}imagen | image *texto*_
 ┃𒁈➺ _${usedPrefix}pinterest | dlpinterest *texto*_
 ┃𒁈➺ _${usedPrefix}wallpaper|wp *texto*_
