@@ -44,8 +44,8 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 * Descargar e instala FFmpeg [`Aquí`](https://ffmpeg.org/download.html) (**No olvide agregar FFmpeg a la variable de entorno PATH**)
 * Descargar e instala ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
 ```bash
-git clone https://github.com/Brashkie/BrashkieBot-Hepein
-cd BrashkieBot-Hepein
+git clone https://github.com/Brashkie/HamilyBot
+cd HamilyBot
 npm install -g yarn
 yarn
 npm install 
