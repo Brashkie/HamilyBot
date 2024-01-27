@@ -33,5 +33,21 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Brashkie/BrashkieBot-Hepein/master/Brashkie.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Brashkie/HamilyBot/master/Hamily.sh | bash
+```
+
+
+##  INSTALACIÓN PARA WINDOWS/VPS/RDP 
+
+* Descargar e instala Git [`Aquí`](https://git-scm.com/downloads)
+* Descargar e instala NodeJS [`Aquí`](https://nodejs.org/en/download)
+* Descargar e instala FFmpeg [`Aquí`](https://ffmpeg.org/download.html) (**No olvide agregar FFmpeg a la variable de entorno PATH**)
+* Descargar e instala ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
+```bash
+git clone https://github.com/Brashkie/BrashkieBot-Hepein
+cd BrashkieBot-Hepein
+npm install -g yarn
+yarn
+npm install 
+npm start
 ```
