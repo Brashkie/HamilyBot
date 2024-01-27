@@ -4,9 +4,9 @@ let caption = `
 *╭•·–| 👥 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 𝘽𝘼𝙉𝙀𝘼𝘿𝙊𝙎 : 𝘽𝘼𝙉𝙉𝙀𝘿 |–·•*
 │ *Total : ${users.length} Usuarios* ${users ? '\n' + users.map(([jid], i) => `
 │
-│ *${i + 1}.* ${conn.getName(jid) == undefined ? 'Sin Usuarios Baneados' : conn.getName(jid)}
+│ *${i + 1}.* ${conn.getName(jid) == undefined ? 'Sin Usuarios Baneados en mi Lista' : conn.getName(jid)}
 │ ${isOwner ? '@' + jid.split`@`[0] : jid}\n│ - - - - - - - - -`.trim()).join('\n') : ''}
-│ *Estos usuarios no puedes Usar a GataBot*
+│ *Estos usuarios no puedes Usar a HamilyBot :u*
 *╰•·–––––––––––––––––––·•*`.trim()
 
 await conn.reply(m.chat, caption, m, { mentions: await conn.parseMention(caption) })}
