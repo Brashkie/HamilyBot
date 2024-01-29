@@ -6,10 +6,10 @@ let caption = `👻 𝗨𝗦𝗨𝗔𝗥𝗜𝗢𝗦 𝗣𝗥𝗘𝗠𝗜𝗨�
 │ *Total : ${prem.length} Usuarios* ${prem ? '\n' + prem.map(([jid], i) => `
 │ *${i + 1}.* ${conn.getName(jid) == undefined ? 'Sin Usuarios' : conn.getName(jid)}
 │ ${isOwner ? '@' + jid.split`@`[0] : jid}\n│ - - - - - - - - -`.trim()).join('\n') : ''}
-*╰•·–––––––––––––––––––·•*\n\n👻 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 👻⇢ ${vip ? '✅' : '❌'}\n${wm}`
+*╰•·–––––––––––––––––––·•*\n\n👻 ░P░R░E░M░I░U░M░ 👻⇢ ${vip ? '✅' : '❌'}\n${wm}`
 await conn.reply(m.chat, caption, m, { mentions: await conn.parseMention(caption) })
-/*await conn.sendButton(m.chat, caption, `👻 𝗣 𝗥 𝗘 𝗠 𝗜 𝗨 𝗠 ⇢ ${vip ? '✅' : '❌'}\n${wm}`, null, [ 
-[`${vip ? '✦ 𝘿𝙄𝙎𝙁𝙍𝙐𝙏𝘼𝙍 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 ✦': '✦ 𝘾𝙊𝙈𝙋𝙍𝘼𝙍 𝙋𝘼𝙎𝙀 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 ✦'}`, `${vip ? '.allmenu': '.pase premium'}`]], m, { mentions: await conn.parseMention(caption) })*/
+/*await conn.sendButton(m.chat, caption, `👻 ░P░R░E░M░I░U░M░ ⇢ ${vip ? '✅' : '❌'}\n${wm}`, null, [ 
+[`${vip ? '۞ 𝗗𝗜𝗦𝗙𝗥𝗨𝗧𝗔𝗥 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 ۞': '۞ 𝗖𝗢𝗠𝗣𝗥𝗔𝗥 𝗣𝗔𝗦𝗘 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 ۞'}`, `${vip ? '.allmenu': '.pase premium'}`]], m, { mentions: await conn.parseMention(caption) })*/
 }
 handler.command = /^(listapremium)$/i
 
