@@ -1,7 +1,7 @@
 let handler = async (m, { conn, isOwner }) => {
 let users = Object.entries(global.db.data.users).filter(user => user[1].banned)
 let caption = `
-*╭•·–| 👥 𝙐𝙎𝙐𝘼𝙍𝙄𝙊𝙎 𝘽𝘼𝙉𝙀𝘼𝘿𝙊𝙎 : 𝘽𝘼𝙉𝙉𝙀𝘿 |–·•*
+*╭•·–| 👥 U̷S̷U̷A̷R̷I̷O̷S̷ ̷B̷A̷N̷E̷A̷D̷O̷S̷ ̷:̷ ̷B̷A̷N̷N̷E̷D̷ ̷U̷S̷E̷R̷S̷ |–·•*
 │ *Total : ${users.length} Usuarios* ${users ? '\n' + users.map(([jid], i) => `
 │
 │ *${i + 1}.* ${conn.getName(jid) == undefined ? 'Sin Usuarios Baneados en mi Lista' : conn.getName(jid)}
