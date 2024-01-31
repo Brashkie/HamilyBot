@@ -17,7 +17,7 @@ return conn.reply(m.chat, txt, fkontak, m, { mentions: await conn.parseMention(t
 ['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, { mentions: await conn.parseMention(txt) })*/
 }).catch(err => {
 console.log(err);
-return conn.reply(m.chat, `${rg}ռǟɖɨɛ ɦǟ ֆɨɖօ ɮʟօզʊɛǟɖօ\n\nռօ օռɛ ɦǟֆ ɮɛɛռ ɮʟօƈӄɛɖ`, gata, m) 
+return conn.reply(m.chat, `${rg}ռǟɖɨɛ ɦǟ ֆɨɖօ ɮʟօզʊɛǟɖօ\n\n ռօ օռɛ ɦǟֆ ɮɛɛռ ɮʟօƈӄɛɖ`, gata, m) 
 /*conn.sendButton(m.chat, `${rg}ռǟɖɨɛ ɦǟ ֆɨɖօ ɮʟօզʊɛǟɖօ\n\nռօ օռɛ ɦǟֆ ɮɛɛռ ɮʟօƈӄɛɖ`, wm, gata, [
 ['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], os.getRandom())*/
 })} 
