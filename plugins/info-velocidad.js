@@ -17,7 +17,7 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 let grupos = [nna, nn, nnn, nnnt, nnntt, nnnttt]
 let gata = [img5, img6, img7, img8, img9]
 let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch(gata.getRandom())).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '𝗛𝗮𝗺𝗶𝗹𝘆𝗕𝗼𝘁 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch(img)).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
 let _muptime
@@ -59,16 +59,16 @@ irq: 0
 }})
 
 let old = performance.now()
-await conn.reply(m.chat, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, fkontak,  m)
-//await conn.sendButton(m.chat, wm, `${eg}🚀 𝙋𝙍𝙐𝙀𝘽𝘼 𝘿𝙀 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿...\n🚀 𝙎𝙋𝙀𝙀𝘿 𝙏𝙀𝙎𝙏...`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)  
+await conn.reply(m.chat, `${eg}🚀 P̷R̷U̷E̷B̷A̷ ̷D̷E̷ ̷V̷E̷L̷O̷C̷I̷D̷A̷D̷...\n🚀 S̷P̷E̷E̷D̷ ̷T̷E̷S̷T̷...`, fkontak,  m)
+//await conn.sendButton(m.chat, wm, `${eg}🚀 P̷R̷U̷E̷B̷A̷ ̷D̷E̷ ̷V̷E̷L̷O̷C̷I̷D̷A̷D̷...\n🚀 S̷P̷E̷E̷D̷ ̷T̷E̷S̷T̷...`, null, [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], fkontak, m)  
 let neww = performance.now()
 let speed = neww - old
-let caption = `*${htki} 𝙑𝙀𝙇𝙊𝘾𝙄𝘿𝘼𝘿 : 𝙎𝙋𝙀𝙀𝘿 ${htka}*
+let caption = `*${htki} 𝗩𝗘𝗟𝗢𝗖𝗜𝗗𝗔𝗗 : 𝗦𝗣𝗘𝗘𝗗 ${htka}*
 
-🚄 *${Math.round(neww - old)}* ms
-🚄 *${speed}* ms
+▛ *${Math.round(neww - old)}* ms
+▙ *${speed}* ms
 
-*${htjava}* 𝙏𝙄𝙀𝙈𝙋𝙊 𝘿𝙀 𝙀𝙅𝙀𝘾𝙐𝘾𝙄𝙊𝙉 : 𝙍𝙐𝙉𝙏𝙄𝙈𝙀 
+*${htjava}* 𝗧𝗜𝗘𝗠𝗣𝗢 𝗗𝗘 𝗘𝗝𝗘𝗖𝗨𝗖𝗜𝗢́𝗡 : 𝗥𝗨𝗡𝗧𝗜𝗠𝗘 
 ${muptime}
 ${readMore}
 *${htjava} C H A T S*
@@ -78,12 +78,13 @@ ${readMore}
 • *${chats.length - groupsIn.length}* \`\`\`Chats Privados : Chats Private\`\`\`
 • *${chats.length}* \`\`\`Total Chats\`\`\`
 
-*${htjava} S E R V I D O R : S E R V E R*
-*🟢 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
-*🔵 RAM Libre:* ${format(freemem())}
+*${htjava} ░S░E░R░V░I░D░O░R░ : ░S░E░R░V░E░R░*
+*𒅒𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀𒅒*
+*⚉ RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
+*⚉ RAM Libre:* ${format(freemem())}
 
-*💻 Plataforma :* \`\`\`${os.platform()}\`\`\`
-*📡 Servidor :* _${os.hostname()}_
+*𒁈 Plataforma :* \`\`\`${os.platform()}\`\`\`
+*𖣁 Servidor :* _${os.hostname()}_
 ${readMore}
 *NodeJS Uso de memoria : Memory Usage*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
@@ -97,7 +98,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', caption, fkontak)
 //await conn.sendButton(m.chat, wm, caption, gata.getRandom(), [['𝗠 𝗘 𝗡 𝗨 ☘️', '/menu']], m, dos.getRandom())
 } catch (e) {
-await conn.reply(m.chat, `${fg}*ALGO SALIÓ MAL. ERRORS FOUND.*\n\n\`\`\`REPORTE ESTE COMANDO ${usedPrefix + command} CON EL COMANDO ${usedPrefix}reporte\`\`\``, m)
+await conn.reply(m.chat, `${fg}*OCURRIÓ UN PROBLEMA. THERE'S BEEN A PROBLEM.*\n\n\`\`\`REPORTE ESTE COMANDO ${usedPrefix + command} CON EL COMANDO ${usedPrefix}reporte\`\`\``, m)
 }}
 handler.help = ['ping', 'speed']
 handler.tags = ['info', 'tools']
