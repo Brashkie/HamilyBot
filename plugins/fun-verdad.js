@@ -1,4 +1,4 @@
-let handler  = async (m, { conn, usedPrefix, command }) => {
+let handler  = async (m, { conn, text }) => {
 conn.reply(m.chat,`╭━━━━[ 𝙑𝙀𝙍𝘿𝘼𝘿 🤔 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, m)}
 /*conn.sendHydrated(m.chat, `╭━━━━[ 𝙑𝙀𝙍𝘿𝘼𝘿 🤔 ]━━━━⬣\n*“${pickRandom(global.bucin)}”*\n╰━━━━━━[ ${vs} ]━━━━━⬣`, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
 ['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🧐', `${usedPrefix}reto`],
@@ -6,15 +6,12 @@ conn.reply(m.chat,`╭━━━━[ 𝙑𝙀𝙍𝘿𝘼𝘿 🤔 ]━━━━�
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `${usedPrefix}menu`]
 ], m,)}*/
 
-handler.help = ['verdad']
-handler.tags = ['fun']
+handler.tags = ['humor']
 handler.command = ['verdad']
-handler.fail = null
 export default handler
 
 function pickRandom(list) {
-  return list[Math.floor(list.length * Math.random())]
-}
+return list[Math.floor(list.length * Math.random())]}
 
 global.verdad = [
 "¿Alguna vez te ha gustado alguien? ¿Cuánto tiempo?",
