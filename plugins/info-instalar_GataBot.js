@@ -15,19 +15,22 @@ const fkontak = {
 }
 
 let picture = './media/menus/Menu1.jpg'
-let gata = `𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝘾𝙄𝙊𝙉 𝘿𝙀 𝙂𝘼𝙏𝘼𝘽𝙊𝙏 🐈
+let gata = `I̷N̷S̷T̷A̷L̷A̷C̷I̷O̷N̷ ̷D̷E̷ ̷H̷A̷M̷I̷L̷Y̷B̷O̷T̷ 𒅒
+
+
+*𒅒𝗕𝗿𝗮𝘀𝗵𝗸𝗶𝗲 𝗗𝗶𝗼𝘀𒅒 | 𝗛𝗮𝗺𝗶𝗹𝘆𝗕𝗼𝘁*
 
 *━━━━━━━━━━━━━⬣*
-✅ 𝗜𝗡𝗦𝗧𝗔𝗟𝗔𝗥 𝗘𝗡 𝗕𝗢𝗫𝗠𝗜𝗡𝗘
+𒁈 𝗜𝗡𝗦𝗧𝗔𝗟𝗔𝗥 𝗘𝗡 𝗕𝗢𝗫𝗠𝗜𝗡𝗘
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-*𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 : 𝘽𝙤𝙭𝙈𝙞𝙣𝙚*
-*_https://youtu.be/Ko019wvu2Tc_*
+*𝗛𝗮𝗺𝗶𝗹𝘆𝗕𝗼𝘁 : 𝗕𝗼𝘅𝗠𝗶𝗻𝗲*
+*Aun no publicado*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 _Pagina Oficial_ 
 _https://boxmineworld.com_
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 _Tutorial - Crea una cuenta en la Dashboard_
-_https://www.youtube.com/watch?v=ZAwBLuNmIlI_
+*Aun no publicado*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 _Dashboard_
 _https://dash.boxmineworld.com_
@@ -37,24 +40,20 @@ _https://panel.boxmineworld.com_
 *━━━━━━━━━━━━━⬣*
 
 *━━━━━━━━━━━━━⬣*
-✅ 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓
+𒁈 𝗜𝗡𝗦𝗧𝗔𝗟𝗔𝗥 𝗘𝗡 𝗧𝗘𝗥𝗠𝗨𝗫
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 termux-setup-storage
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/gata.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/Brashkie/HamilyBot/master/Hamily.sh | bash
 *━━━━━━━━━━━━━⬣*
 
 *━━━━━━━━━━━━━⬣*
-✅ 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙀𝙉 𝙃𝙀𝙍𝙊𝙆𝙐
+𒁈 𝗜𝗡𝗦𝗧𝗔𝗟𝗔𝗥 𝗘𝗡 𝗛𝗘𝗥𝗢𝗞𝗨
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-*_https://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBot-MD_*
-*⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-*Añada lo siguente al Buildpack:*
-_https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git_
-_https://github.com/clhuang/heroku-buildpack-webp-binaries.git_
+*Aun no publicada, serà mas adelante*
 *━━━━━━━━━━━━━⬣*`
 await conn.sendFile(m.chat, picture, 'gata.mp4', gata, fkontak)}
-/*conn.sendButton(m.chat, gata, `Comunícate con Mí Creadora si necesitas ayuda con la Instalación.\n\nContact My Creator if you need help with the Installation.\n\n${ig}\n${wm}`, picture, [
-['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', '.cuentasgb'],
-['🎁 𝘿𝙤𝙣𝙖𝙧 | 𝘿𝙤𝙣𝙖𝙩𝙚', '.donar']], fkontak, m)}*/
+/*conn.sendButton(m.chat, gata, `Comunícate con Mí Creador si necesitas ayuda con la Instalación.\n\nContact My Creator if you need help with the Installation.\n\n${ig}\n${wm}`, picture, [
+['ᴄᴜᴇɴᴛᴀs ᴏғɪᴄɪᴀʟᴇs | ᴀᴄᴄᴏᴜɴᴛs', '.cuentasgb'],
+['ᴅᴏɴᴀʀ | ᴅᴏɴᴀᴛᴇ', '.donar']], fkontak, m)}*/
 handler.command = /^(instalarbot|instalargatabot|instalargata|procesobot|botproceso|procesodelbot|botinstall|installbot)/i
 export default handler
