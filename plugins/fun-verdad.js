@@ -8,7 +8,7 @@ conn.reply(m.chat,`╭━━━━[ 𝙑𝙀𝙍𝘿𝘼𝘿 🤔 ]━━━━�
 
 handler.help = ['verdad']
 handler.tags = ['fun']
-handler.command = /^verdad/i
+handler.command = ['verdad']
 handler.fail = null
 export default handler
 
