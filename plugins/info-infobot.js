@@ -153,7 +153,7 @@ conn.sendHydrated(m.chat, info, wm, pp, 'https://github.com/Brashkie/HamilyBot',
 }
 handler.help = ['infobot']
 handler.tags = ['info', 'tools']
-handler.command = /^(infobot|informacionbot|infogata|informacióngata|informaciongata)$/i
+handler.command = /^(infobot|informacionbot|infobras|informaciónbras|informacionbras)$/i
 export default handler
 
 function clockString(ms) {
