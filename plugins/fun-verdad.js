@@ -171,5 +171,4 @@ global.verdad = [
 "Que estrella te gusta", 
 "¿Empezaste algo con XY (insertar nombre)?", 
 "Alguna vez has robado algo?"
-
 ] 
