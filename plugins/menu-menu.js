@@ -117,7 +117,7 @@ ${readMore}
 ┃𖣔➺ _${usedPrefix}donar | donate_
 ┃𖣔➺ _${usedPrefix}listagrupos | grouplist_
 ┃𖣔➺ _${usedPrefix}estado | heygata | status_
-┃𖣔➺ _${usedPrefix}infogata | infobot_
+┃𖣔➺ _${usedPrefix}infobras | infobot_
 ┃𖣔➺ _${usedPrefix}instalarbot | installbot_
 ┃𖣔➺ _${usedPrefix}creadora | owner_
 ┃𖣔➺ _${usedPrefix}velocidad | ping_
