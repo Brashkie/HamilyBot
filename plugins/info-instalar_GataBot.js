@@ -55,5 +55,5 @@ await conn.sendFile(m.chat, picture, 'gata.mp4', gata, fkontak)}
 /*conn.sendButton(m.chat, gata, `Comunícate con Mí Creador si necesitas ayuda con la Instalación.\n\nContact My Creator if you need help with the Installation.\n\n${ig}\n${wm}`, picture, [
 ['ᴄᴜᴇɴᴛᴀs ᴏғɪᴄɪᴀʟᴇs | ᴀᴄᴄᴏᴜɴᴛs', '.cuentasgb'],
 ['ᴅᴏɴᴀʀ | ᴅᴏɴᴀᴛᴇ', '.donar']], fkontak, m)}*/
-handler.command = /^(instalarbot|instalargatabot|instalargata|procesobot|botproceso|procesodelbot|botinstall|installbot)/i
+handler.command = /^(instalarbot|instalarhamilybot|instalarhamily|procesobot|botproceso|procesodelbot|botinstall|installbot)/i
 export default handler
