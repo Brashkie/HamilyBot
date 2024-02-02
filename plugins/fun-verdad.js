@@ -6,12 +6,15 @@ conn.reply(m.chat,`╭━━━━[ 𝙑𝙀𝙍𝘿𝘼𝘿 🤔 ]━━━━�
 ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `${usedPrefix}menu`]
 ], m,)}*/
 
-handler.tags = ['humor']
-handler.command = ['verdad']
+handler.help = ['verdad']
+handler.tags = ['fun']
+handler.command = /^verdad/i
+handler.fail = null
 export default handler
 
 function pickRandom(list) {
-return list[Math.floor(list.length * Math.random())]}
+  return list[Math.floor(list.length * Math.random())]
+}
 
 global.verdad = [
 "¿Alguna vez te ha gustado alguien? ¿Cuánto tiempo?",
