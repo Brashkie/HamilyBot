@@ -84,18 +84,16 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '🤖' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '🤖'} ${user.registered === true ? user.name : username}*${(conn.user.jid == global.conn.user.jid ? '' : `\n*SOY SUB BOT DE: https://wa.me/${global.conn.user.jid.split`@`[0]}*`) || ''}
 
-⎔ *𖣐𝗛𝗮𝗺𝗶𝗹𝘆𝗕𝗼𝘁𖣐 || 𒅒 𝔹𝕣𝕒𝕤𝕙𝕜𝕚𝕖 𝔻𝕚𝕠𝕤 𒅒*
 \`\`\`${horarioFecha}\`\`\`
 ⎔ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
-⎔ *Registrados »»»* ${rtotalreg}/${totalreg}    
+⎔ *Registrados »* ${rtotalreg}/${totalreg}    
 ⎔ *${lenguajeGB['smsUptime']()}* ➺ _${uptime}_ 
 ⎔ *${lenguajeGB['smsVersion']()}* ➺ _${vs}_
 ⎔ *${lenguajeGB['smsMode']()} ➺* _${global.opts['self'] ? `${lenguajeGB['smsModePrivate']().charAt(0).toUpperCase() + lenguajeGB['smsModePrivate']().slice(1).toLowerCase()}` : `${lenguajeGB['smsModePublic']().charAt(0).toUpperCase() + lenguajeGB['smsModePublic']().slice(1).toLowerCase()}`}_
 ⎔ *${lenguajeGB['smsBanChats']()}* ➺ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
 ⎔ *${lenguajeGB['smsBanUsers']()}* ➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_
 
-
- *◜𝗜𝗠𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 𝗗𝗘𝗟 𝗨𝗦𝗨𝗔𝗥𝗜𝗢◞* 
+𒀽 *◜𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆́ℕ 𝔻𝔼𝕃 𝕌𝕊𝕌𝔸ℝ𝕀𝕆◞* 𒀽
 ⊜ *Tipo de registro »* ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo ' : 'Registro Rápido '}_` : '❌ _Sin registro_'}
 ⊜ *Mi estado »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
 ⊜ *Registrado »* ${user.registered === true ? '✅' : '❌ _' + usedPrefix + 'verificar_'}
@@ -111,21 +109,21 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '🤖' : user.ge
 ⊜ *HamiCoins ➟* ${money} 𒀽
 ⊜ *Tokens ➟* ${joincount} 🪙
 ${readMore}
-*╭━〔𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡 𝗗𝗘 𝗛𝗔𝗠𝗜𝗟𝗬𝗕𝗢𝗧〕⬣*
+*╭━〔𖥂 𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆́ℕ 𝔻𝔼 ℍ𝔸𝕄𝕀𝕃𝕐𝔹𝕆𝕋 𖥂〕⬣*
 ┃𖣔➺ _${usedPrefix}cuentasgatabot | cuentasgb_
-┃𖣔➺ _${usedPrefix}gruposgb | grupos | groupgb_
+┃𖣔➺ _${usedPrefix}gruposhb | grupos | grouphb_
 ┃𖣔➺ _${usedPrefix}donar | donate_
 ┃𖣔➺ _${usedPrefix}listagrupos | grouplist_
-┃𖣔➺ _${usedPrefix}estado | heygata | status_
-┃𖣔➺ _${usedPrefix}infobras | infobot_
+┃𖣔➺ _${usedPrefix}estado | heyhamily | status_
+┃𖣔➺ _${usedPrefix}infohamily | infobot_
 ┃𖣔➺ _${usedPrefix}instalarbot | installbot_
-┃𖣔➺ _${usedPrefix}creadora | owner_
+┃𖣔➺ _${usedPrefix}creador | owner_
 ┃𖣔➺ _${usedPrefix}velocidad | ping_
 ┃𖣔➺ _Bot_ 
 ┃𖣔➺ _términos y condiciones_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━〔𖥂 𝗙𝗨𝗡𝗖𝗜𝗢́𝗡 𝗦𝗨𝗕 𝗕𝗢𝗧 𖥂〕━⬣*
+*╭━〔𖥂 𝔽𝕌ℕℂ𝕀𝕆́ℕ 𝕊𝕌𝔹 𝔹𝕆𝕋 𖥂〕━⬣*
 ┃ *Ya puedes convertir tú*
 ┃ *Número en HamilyBot!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -136,7 +134,7 @@ ${readMore}
 ┃🖥️ _${usedPrefix}bcbot_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━〔 𝗥𝗘𝗣𝗢𝗥𝗧𝗔𝗥 𝗖𝗢𝗠𝗔𝗡𝗗𝗢 〕━⬣*
+*╭━〔𖥂 ℝ𝔼ℙ𝕆ℝ𝕋𝔸ℝ ℂ𝕆𝕄𝔸ℕ𝔻𝕆 𖥂〕━⬣*
 ┃ *Reporta con este comando de haber*
 ┃ *Fallas para poder Solucionar!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -160,7 +158,7 @@ ${readMore}
 ┃🎟️ _${usedPrefix}pass premium_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━〔𝗝𝗨𝗘𝗚𝗢𝗦 - 𝗠𝗨𝗟𝗧𝗜 𝗝𝗨𝗘𝗚𝗢𝗦〕━⬣*
+*╭━〔𖥂 𝕁𝕌𝔼𝔾𝕆𝕊 - 𝕄𝕌𝕃𝕋𝕀 𝕁𝕌𝔼𝔾𝕆𝕊 𖥂〕━⬣*
 ┃𖣐➺ _${usedPrefix}mates | matemáticas | math_
 ┃𖣐➺ _${usedPrefix}lanzar *cara* | *cruz*
 ┃𖣐➺ _${usedPrefix}ppt *piedra : papel : tijera*_
@@ -209,7 +207,7 @@ ${readMore}
 ┃🪄➺ _${usedPrefix}simsimi | bixby *texto*_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━━━[𖥂𝗔𝗝𝗨𝗦𝗧𝗘𝗦-𝗖𝗛𝗔𝗧𝗦𖥂]━━⬣*
+*╭━━━[𖥂 𝔸𝕁𝕌𝕊𝕋𝔼𝕊 - ℂℍ𝔸𝕋𝕊 𖥂]━━━⬣*
 ┃ *Configura si eres Propietario(a) y/o*
 ┃ *Admin!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -242,7 +240,7 @@ ${readMore}
 ┃☯ _${usedPrefix}on *:* off *sologrupos | gconly*_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━〔 𝔾ℝ𝕌ℙ𝕆 - ℝ𝔼𝕊𝕌𝕄𝔼ℕ 〕━⬣*
+*╭━〔𖥂 𝔾ℝ𝕌ℙ𝕆 - ℝ𝔼𝕊𝕌𝕄𝔼ℕ 𖥂〕━⬣*
 ┃ *Ahora puedes ver el resumen*
 ┃ *de configuracion de Grupos!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -251,7 +249,7 @@ ${readMore}
 ┃🧾➺ _${usedPrefix}vergrupo_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━[ 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 | 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗦 ]━⬣*
+*╭━[⬇️ 𝔻𝔼𝕊ℂ𝔸ℝ𝔾𝔸𝕊 | 𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻𝕊 ⬇️]━⬣*
 ┃𒁈➺ _${usedPrefix}imagen | image *texto*_
 ┃𒁈➺ _${usedPrefix}pinterest | dlpinterest *texto*_
 ┃𒁈➺ _${usedPrefix}wallpaper|wp *texto*_
@@ -292,7 +290,7 @@ ${readMore}
 ┃🤖➺ _${usedPrefix}leave_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━[𖥂 𝗖𝗢𝗡𝗙𝗜𝗚𝗨𝗥𝗔𝗖𝗜𝗢́𝗡 - 𝗚𝗥𝗨𝗣𝗢𝗦 𖥂]━⬣*
+*╭━[ 𖥂 ℂ𝕆ℕ𝔽𝕀𝔾𝕌ℝ𝔸ℂ𝕀𝕆́ℕ - 𝔾ℝ𝕌ℙ𝕆𝕊 𖥂 ]━⬣*
 ┃ *Mejora tú Grupo con HamilyBot!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✠ ➺ _${usedPrefix}add *numero*_
@@ -341,7 +339,7 @@ ${readMore}
 ┃💖➺ _${usedPrefix}terminar | finish *@tag*_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━[✔ 𝗩𝗢𝗧𝗔𝗖𝗜𝗢𝗡𝗘𝗦 𝗘𝗡 𝗚𝗥𝗨𝗣𝗢𝗦 ✔]━⬣*
+*╭━[ ✔ 𝕍𝕆𝕋𝔸ℂ𝕀𝕆ℕ𝔼𝕊 𝔼ℕ 𝔾ℝ𝕌ℙ𝕆𝕊 ✔ ]━⬣*
 ┃ *Ahora puedes hacer*
 ┃ *Votaciones en Grupos!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -391,7 +389,7 @@ ${readMore}
 ┃✎ _${usedPrefix}blur_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━[𝄡 𝗥𝗔𝗡𝗗𝗢𝗠 | 𝗔𝗡𝗜𝗠𝗘 𝄡]━⬣*
+*╭━[ 𝄡 ℝ𝔸ℕ𝔻𝕆𝕄 | 𝔸ℕ𝕀𝕄𝔼 𝄡 ]━⬣*
 ┃𝄡 _${usedPrefix}chica_
 ┃𝄡 _${usedPrefix}chico_
 ┃𝄡 _${usedPrefix}cristianoronaldo_
@@ -444,7 +442,7 @@ ${readMore}
 ┃𝄡 _${usedPrefix}cosplay_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━[ 𝗠𝗢𝗗𝗜𝗙𝗜𝗖𝗔𝗥 𝗔𝗨𝗗𝗜𝗢 ]━⬣*
+*╭━[ 🎼 𝕄𝕆𝔻𝕀𝔽𝕀ℂ𝔸ℝ 𝔸𝕌𝔻𝕀𝕆 🎼 ]━⬣*
 ┃ *Realiza Modificaciones*
 ┃ *al Audio o Nota de Voz!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -540,7 +538,7 @@ ${readMore}
 ┃☭➺ _${usedPrefix}trabajar | work_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━━━[ 𝗧𝗢𝗣 𝗘𝗡 𝗛𝗔𝗠𝗜𝗟𝗬𝗕𝗢𝗧 ]━⬣*
+*╭━━━[ 𝕋𝕆ℙ 𝔼ℕ ℍ𝔸𝕄𝕀𝕃𝕐𝔹𝕆𝕋 ]━━⬣*
 ┃ *Averigua en que Top te encuentras!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃🏆➺ _${usedPrefix}top | lb | leaderboard_
@@ -569,7 +567,7 @@ ${readMore}
 ┃✠ _${usedPrefix}cs *:* cs2_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━[ 𝗠𝗢𝗗𝗜𝗙𝗜𝗖𝗔𝗥 𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦 ]━⬣*
+*╭━[ 𝕄𝕆𝔻𝕀𝔽𝕀ℂ𝔸ℝ 𝕊𝕋𝕀ℂ𝕂𝔼ℝ𝕊 ]━⬣*
 ┃ *Personaliza la información del Sticker!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃✠ _${usedPrefix}wm *packname|author*_
@@ -587,7 +585,7 @@ ${readMore}
 ┃✠ _${usedPrefix}alimentar | food *@tag*_
 *╰━━━━━━━━━━━━⬣*
 
-*╭━[𝗠𝗘𝗡𝗨 𝗣𝗔𝗥𝗔 𝗣𝗥𝗢𝗣𝗜𝗘𝗧𝗔𝗥𝗜𝗢/𝗔]━⬣*
+*╭━[ 𝕄𝔼ℕ𝕌 ℙ𝔸ℝ𝔸 ℙℝ𝕆ℙ𝕀𝔼𝕋𝔸ℝ𝕀𝕆/𝔸 ]━⬣*
 ┃ *Comandos solo para Propietario/a!!*
 ┃┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ┃⛃ _${usedPrefix}join *enlace*_
