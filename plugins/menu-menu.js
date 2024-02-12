@@ -110,7 +110,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '🤖' : user.ge
 ⊜ *Tokens ➟* ${joincount} 🪙
 ${readMore}
 *╭━〔𖥂 𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆́ℕ 𝔻𝔼 ℍ𝔸𝕄𝕀𝕃𝕐𝔹𝕆𝕋 𖥂〕⬣*
-┃𖣔➺ _${usedPrefix}cuentasgatabot | cuentasgb_
+┃𖣔➺ _${usedPrefix}cuentashamilybot | cuentashb_
 ┃𖣔➺ _${usedPrefix}gruposhb | grupos | grouphb_
 ┃𖣔➺ _${usedPrefix}donar | donate_
 ┃𖣔➺ _${usedPrefix}listagrupos | grouplist_
