@@ -3,17 +3,17 @@ let baileys = (await import(global.baileys)).default
 
 let handler = async (m, { conn, text }) => {
 	let [, code] = text.match(/chat\.whatsapp\.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i) || []
-	if (!code) throw `${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙀𝙇 𝙇𝙄𝙉𝙆 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊`
+	if (!code) throw `${lenguajeGB['smsAvisoMG']()}I̷N̷G̷R̷E̷S̷E̷ ̷E̷L̷ ̷L̷I̷N̷K̷ ̷D̷E̷L̷ ̷G̷R̷U̷P̷O̷`
 	let res = await conn.query({ tag: 'iq', attrs: { type: 'get', xmlns: 'w:g2', to: '@g.us' }, content: [{ tag: 'invite', attrs: { code } }] }),
 		data = extractGroupMetadata(res),
 		txt = Object.keys(data).map(v => `*${v.capitalize()}:* ${data[v]}`).join('\n'),
 		pp = await conn.profilePictureUrl(data.id, 'image').catch(console.error)
 	if (pp) return conn.sendMessage(m.chat, { image: { url: pp }, caption: txt }, { quoted: m })
 	let groupinfo = `*┏━━━━━━━━━━━━━━━┓*
-*┃☂️ ⫹⫺ ID: ${data.id}*
-*┃🧪 ⫹⫺ Nombre: ${data.subject}*
-*┃📅 ⫹⫺ Creado: ${data.creation}*
-*┃👑 ⫹⫺ Owner: ${data.owner}*
+*┃𖣯 ⫹⫺ ID: ${data.id}*
+*┃𖣯 ⫹⫺ Nombre: ${data.subject}*
+*┃𖣯 ⫹⫺ Creado: ${data.creation}*
+*┃𖣯 ⫹⫺ Owner: ${data.owner}*
 *┃👇 ⫹⫺ La descripción se enviarán a continuación 👇👇👇*
 *┗━━━━━━━━━━━━━━━┛*`
 	await conn.reply(m.chat, groupinfo, m)
@@ -52,11 +52,11 @@ let handler = async (m, { conn, text }) => {
 		pp = await conn.profilePictureUrl(data.id, 'image').catch(console.error)
 		let groupinfo = `
 *┏━━━━━━━━━━━━━━━┓*
-*┃☂️ ⫹⫺ ID:* ${data.id}◞
-*┃🧪 ⫹⫺ Nombre:* ${data.subject}
-*┃📅 ⫹⫺ Creado:* ${data.creation}
-*┃👑 ⫹⫺ Owner:* ${data.owner}
-*┗━━━━━━━━━━━━━━━┛*
+*┃𖣯 ⫹⫺ ID: ${data.id}*
+*┃𖣯 ⫹⫺ Nombre: ${data.subject}*
+*┃𖣯 ⫹⫺ Creado: ${data.creation}*
+*┃𖣯 ⫹⫺ Owner: ${data.owner}*
+*┗━━━━━━━━━━━━━━━┛*`
 `
 	await conn.reply(m.chat, groupinfo, m)
 	const botones = [
