@@ -27,7 +27,7 @@ let handler = async (m, { conn, text }) => {
     }, 'extendedTextMessage')
     if (m.quoted && text) _m = conn.forwardMessage('status@broadcast', await m.quoted.cMod('status@broadcast', text))
     //m.reply((await _m).key.id)
-    m.reply('*✅ Estado subido con exito, agenda en tu lista de contactos el número del Bot y pide al propietario del Bot que te agregue a sus contactos para que puedas ver los estados*')
+    m.reply('*𒆙El estado se ha subido exitosamente. Por favor, agrega el número del bot a tu lista de contactos y solicita al propietario del bot que te agregue a sus contactos para que puedas ver los estados.*')
     }
 handler.help = ['subirestado']
 handler.tags = ['General']
