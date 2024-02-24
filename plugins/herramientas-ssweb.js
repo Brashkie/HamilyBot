@@ -1,6 +1,6 @@
 import fetch from 'node-fetch' 
 const handler = async (m, {conn, text, args, usedPrefix, isPrems}) => {   
-if (!args[0]) return conn.reply(m.chat, '*Por favor ingresa una url de la página a la que se le tomará captura 🔎*', m)  
+if (!args[0]) return conn.reply(m.chat, '*Por favor, proporciona la URL del sitio web que deseas capturar\n\n𝗪𝗔𝗭𝗭𝗔𝗔𝗔𝗔𝗔𝗔𝗔𝗔👻👻👻*', m)  
 let user = global.db.data.users[m.sender]
 let calidad, webIMG 
 try {  
