@@ -1,7 +1,7 @@
 import JavaScriptObfuscator from 'javascript-obfuscator'
 
 let handler = async(m, { conn, text }) => {
-if (!text) return m.reply(`*${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝘼 𝙀𝙇 𝘾𝙊́𝘿𝙄𝙂𝙊 𝙌𝙐𝙀 𝙑𝘼𝙎 𝘼 𝙊𝙁𝙐𝙎𝘾𝘼𝙍*`) 
+if (!text) return m.reply(`*${lenguajeGB['smsAvisoMG']()}I̷N̷G̷R̷E̷S̷A̷ ̷E̷L̷ ̷C̷O̷D̷I̷G̷O̷ ̷Q̷U̷E̷ ̷V̷A̷S̷ ̷A̷ ̷O̷F̷U̷S̷C̷A̷R̷*`) 
 function obfuscateCode(code) {
   return JavaScriptObfuscator.obfuscate(code, { compact: false, controlFlowFlattening: true, deadCodeInjection: true, simplify: true, numbersToExpressions: true }).getObfuscatedCode();
 }
