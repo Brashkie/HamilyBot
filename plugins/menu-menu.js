@@ -86,7 +86,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '🤖' : user.ge
 ╔══════════════════════════════════════╗
 ║*𒅒𝔹𝕣𝕒𝕤𝕙𝕜𝕚𝕖 𝔻𝕚𝕠𝕤𒅒 | 𖣐𝗛𝗮𝗺𝗶𝗹𝘆𝗕𝗼𝘁𖣐* ║
 ╚══════════════════════════════════════╝
-\`\`\`${horarioFecha}\`\`\`
+║\`\`\`${horarioFecha}\`\`\`
 ║ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
 ║ *Registrados »* ${rtotalreg}/${totalreg}    
 ║ *${lenguajeGB['smsUptime']()}* ➺ _${uptime}_ 
@@ -95,6 +95,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '🤖' : user.ge
 ║ *${lenguajeGB['smsBanChats']()}* ➺ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
 ║ *${lenguajeGB['smsBanUsers']()}* ➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_
 ╚══════════════════════════════════════╝
+
 𒀽 *◜𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆́ℕ 𝔻𝔼𝕃 𝕌𝕊𝕌𝔸ℝ𝕀𝕆◞* 𒀽
 ❱❱ *Tipo de registro »* ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo ' : 'Registro Rápido '}_` : '❌ _Sin registro_'}
 ❱❱ *Mi estado »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
