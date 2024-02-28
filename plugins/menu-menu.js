@@ -106,11 +106,14 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '🤖' : user.ge
 ⊜ *${lenguajeGB['smsPareja']()}* ${pareja ? `\n*»* ${name} 💕 ${conn.getName(pareja)}` : `🛐 ${lenguajeGB['smsResultPareja']()}`}
 ⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 
+*⬣━━━━━━━━━━━━━━━━━━━━━━━━━━━⬣*
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} ⛃
 ⊜ *HamiCoins ➟* ${money} 𒀽
 ⊜ *Tokens ➟* ${joincount} 🪙
 ${readMore}
+*⬣━━━━━━━━━━━━━━━━━━━━━━━━━━━⬣*
+
 *╭━〔𖥂 𝕀ℕ𝔽𝕆ℝ𝕄𝔸ℂ𝕀𝕆́ℕ 𝔻𝔼 ℍ𝔸𝕄𝕀𝕃𝕐𝔹𝕆𝕋 𖥂〕⬣*
 ┃𖣔➺ _${usedPrefix}cuentashamilybot | cuentashb_
 ┃𖣔➺ _${usedPrefix}gruposhb | grupos | grouphb_
