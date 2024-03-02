@@ -18,12 +18,12 @@ ${lenguajeGB['smsAvisoMG']()}*╭━[ ${wm} ]━⬣*
 await conn.groupSettingUpdate(m.chat, isClose)
   
 if (isClose === 'not_announcement'){
-conn.sendButton(m.chat, `${lenguajeGB['smsAvisoEG']()}𝙔𝘼 𝙋𝙐𝙀𝘿𝙀𝙉 𝙀𝙎𝘾𝙍𝙄𝘽𝙄𝙍 𝙏𝙊𝘿𝙊𝙎 𝙀𝙉 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊!!`, `𝙂𝙍𝙐𝙋𝙊 𝘼𝘽𝙄𝙀𝙍𝙏𝙊\n${wm}`, pp, [['𝘾𝙪𝙚𝙣𝙩𝙖𝙨 𝙊𝙛𝙞𝙘𝙞𝙖𝙡𝙚𝙨 | 𝘼𝙘𝙘𝙤𝙪𝙣𝙩𝙨 ✅', `.cuentasgb`], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `/menu`]], m)
+conn.sendButton(m.chat, `${lenguajeGB['smsAvisoEG']()}ɢʀᴜᴘᴏ ᴀʙɪᴇʀᴛᴏ ᴘᴀʀᴀ ᴛᴏᴅᴏꜱ ʟᴏꜱ ᴍɪᴇᴍʙʀᴏꜱ!!`, `ɢʀᴜᴘᴏ ᴀʙɪᴇʀᴛᴏ :ᴅ\n${wm}`, pp, [['𝗖𝘂𝗲𝗻𝘁𝗮𝘀 𝗼𝗳𝗶𝗰𝗶𝗮𝗹𝗲𝘀 | 𝗔𝗰𝗰𝗼𝘂𝗻𝘁𝘀 ✅', `.cuentasgb`], ['𝗩𝗼𝗹𝘃𝗲𝗿 𝗮𝗹 𝗺𝗲𝗻𝘂 | 𝗕𝗮𝗰𝗸 𝘁𝗼 𝗺𝗲𝗻𝘂', `/menu`]], m)
 }
   
 if (isClose === 'announcement'){
-//m.reply(`${eg}*𝙂𝙍𝙐𝙋𝙊 𝘾𝙀𝙍𝙍𝘼𝘿𝙊*\n𝙎𝙊𝙇𝙊 𝙇𝙊𝙎 𝘼𝘿𝙈𝙄𝙉𝙎 𝙋𝙐𝙀𝘿𝙀𝙉 𝙀𝙎𝘾𝙍𝙄𝘽𝙄𝙍 𝙀𝙉 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊`)
-conn.sendButton(m.chat, `${lenguajeGB['smsAvisoEG']()}𝙎𝙊𝙇𝙊 𝙇𝙊𝙎 𝘼𝘿𝙈𝙄𝙉𝙎 𝙋𝙐𝙀𝘿𝙀𝙉 𝙀𝙎𝘾𝙍𝙄𝘽𝙄𝙍 𝙀𝙉 𝙀𝙎𝙏𝙀 𝙂𝙍𝙐𝙋𝙊!!`, `𝙂𝙍𝙐𝙋𝙊 𝘾𝙀𝙍𝙍𝘼𝘿𝙊\n${wm}`, pp, [['𝙈𝙤𝙢𝙚𝙣𝙩𝙤 𝘼𝙙𝙢𝙞𝙣 😎', '.s'], ['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', `/menu`]], m)
+//m.reply(`${eg}*ɢʀᴜᴘᴏ ᴄᴇʀʀᴀᴅᴏ :ᴠ*\nᴜɴɪᴄᴀᴍᴇɴᴛᴇ ʟᴏꜱ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴅᴏʀᴇꜱ ᴛɪᴇɴᴇɴ ᴘᴇʀᴍɪꜱᴏ ᴘᴀʀᴀ ᴇꜱᴄʀɪʙɪʀ ᴇɴ ᴇꜱᴛᴇ ɢʀᴜᴘᴏ`)
+conn.sendButton(m.chat, `${lenguajeGB['smsAvisoEG']()}ᴜɴɪᴄᴀᴍᴇɴᴛᴇ ʟᴏꜱ ᴀᴅᴍɪɴɪꜱᴛʀᴀᴅᴏʀᴇꜱ ᴛɪᴇɴᴇɴ ᴘᴇʀᴍɪꜱᴏ ᴘᴀʀᴀ ᴇꜱᴄʀɪʙɪʀ ᴇɴ ᴇꜱᴛᴇ ɢʀᴜᴘᴏ!!`, `ɢʀᴜᴘᴏ ᴄᴇʀʀᴀᴅᴏ :ᴠ\n${wm}`, pp, [['𝐄𝐋 𝐀𝐝𝐦𝐢𝐧 𝐦𝐨𝐦𝐞𝐧𝐭𝐨 𝐞𝐩𝐢𝐜𝐨 𝐗𝐃 👺', '.s'], ['𝗩𝗼𝗹𝘃𝗲𝗿 𝗮𝗹 𝗺𝗲𝗻𝘂 | 𝗕𝗮𝗰𝗸 𝘁𝗼 𝗺𝗲𝗻𝘂', `/menu`]], m)
 }  
  }
 handler.help = ['group open / close', 'grupo abrir / cerrar']
