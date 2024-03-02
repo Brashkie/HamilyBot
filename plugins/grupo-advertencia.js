@@ -5,7 +5,7 @@ if (!db.data.chats[m.chat].antitoxic && m.isGroup) return conn.reply(m.chat, len
 //conn.sendButton(m.chat, wm, lenguajeGB.smsAdveu1() + lenGB, null, [[lenguajeGB.smsEncender(), lenGB]], fkontak, m)
 
 let who 
-let img = 'https://i.imgur.com/DvHoMc3.jpg'
+let img = 'https://i.imgur.com/xQsbVAo.jpg'
 if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text
 else who = m.chat
 let name = await conn.getName(m.sender)	
