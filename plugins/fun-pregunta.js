@@ -1,20 +1,20 @@
 import fetch from 'node-fetch'
 let handler = async (m, {conn, command, usedPrefix, text }) => { 
-if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝙀𝙎𝘾𝙍𝙄𝘽𝘼 𝙎𝙐 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼 𝙋𝘼𝙍𝘼 𝙎𝙀𝙍 𝙍𝙀𝙎𝙋𝙊𝙉𝘿𝙄𝘿𝘼\n𝙀𝙅𝙀𝙈𝙋𝙇𝙊\n*${usedPrefix + command} Hoy va llover?*\n\n𝙒𝙍𝙄𝙏𝙀 𝙔𝙊𝙐𝙍 𝙌𝙐𝙀𝙎𝙏𝙄𝙊𝙉 𝙏𝙊 𝘽𝙀 𝘼𝙉𝙎𝙒𝙀𝙍𝙀𝘿\n𝙀𝙓𝘼𝙈𝙋𝙇𝙀\n*${usedPrefix + command} Hoy va llover?*`   
+if (!text) throw `${lenguajeGB['smsAvisoMG']()}𝗘𝗦𝗖𝗥𝗜𝗕𝗔 𝗦𝗨 𝗣𝗥𝗘𝗚𝗨𝗡𝗧𝗔 𝗣𝗔𝗥𝗔 𝗦𝗘𝗥 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗜𝗗𝗔\n𝗘𝗝𝗘𝗠𝗣𝗟𝗢\n*${usedPrefix + command} Hoy va ser calor?*\n\n𝗪𝗥𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗤𝗨𝗘𝗦𝗧𝗜𝗢𝗡 𝗧𝗢 𝗕𝗘 𝗔𝗡𝗦𝗪𝗘𝗥𝗘𝗗\n𝗘𝗫𝗔𝗠𝗣𝗟𝗘\n*${usedPrefix + command} Hoy va ser calor?*`   
 let res = await fetch(`https://api.simsimi.net/v2/?text=${text}&lc=es`)
 let json = await res.json()
 if (json.success)
   
-m.reply(`╭━〔 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼 | 𝙌𝙐𝙀𝙎𝙏𝙄𝙊𝙉 〕━⬣  
-⁉️ 𝙋𝙍𝙀𝙂𝙐𝙉𝙏𝘼: 
+m.reply(`╭━〔 P̷R̷E̷G̷U̷N̷T̷A̷ | ̷Q̷U̷E̷S̷T̷I̷O̷N̷ 〕━⬣  
+⁉️ 𝗣𝗥𝗘𝗚𝗨𝗡𝗧𝗔: 
 🙀 ${text}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-✅ 𝙍𝙀𝙎𝙋𝙐𝙀𝙎𝙏𝘼 | 𝙍𝙀𝙎𝙋𝙊𝙉𝙎𝙀
+✅ 𝗥𝗘𝗦𝗣𝗨𝗘𝗦𝗧𝗔 | 𝗥𝗘𝗦𝗣𝗢𝗡𝗦𝗘
 😼 : ${json.success.replace('simsimi', 'simsimi').replace('Simsimi', 'Simsimi').replace('sim simi', 'sim simi')}`) 
 
-//conn.sendHydrated(m.chat, pre, wm, null, md, '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿', null, null, [
-//['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣 🔮', `${usedPrefix + command} ${text}`],
-//['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪 ☘️', '/menu']
+//conn.sendHydrated(m.chat, pre, wm, null, md, '𝗛𝗮𝗺𝗶𝗹𝘆𝗕𝗼𝘁', null, null, [
+//['𝙊𝙩𝙧𝙖 𝙫𝙚𝙯 | 𝘼𝙜𝙖𝙞𝙣', `${usedPrefix + command} ${text}`],
+//['𝙑𝙤𝙡𝙫𝙚𝙧 𝙖𝙡 𝙈𝙚𝙣𝙪́ | 𝘽𝙖𝙘𝙠 𝙩𝙤 𝙈𝙚𝙣𝙪', '/menu']
 //], m, null, m.mentionedJid ? {
 //mentions: m.mentionedJid } : {}) 
 }
