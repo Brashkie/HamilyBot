@@ -1,4 +1,4 @@
-//By https://github.com/DIEGO-OFC
+//By https://github.com/Brashkie
 
 import jimp from "jimp"
 import uploadImage from "../lib/uploadImage.js"
