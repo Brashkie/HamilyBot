@@ -23,7 +23,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 *• Tiempo:* ${(timeout / 1000).toFixed(2)} segundos
 *• Bono:* +${poin} Exp
 
-💫 Responde a este mensaje con la letra de la opción correcta ✅
+𒀽 Responde a este mensaje con la letra de la opción correcta 𒀽
 `.trim()
     conn.tekateki[id] = [
        await conn.reply(m.chat, caption, m),
