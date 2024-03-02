@@ -6,10 +6,10 @@ const configuration = new Configuration({organization: global.openai_org_id, api
 const openaiii = new OpenAIApi(configuration);
 const handler = async (m, {conn, text, usedPrefix, command}) => {
 if (usedPrefix == 'a' || usedPrefix == 'A') return;
-if (!text) throw `*${lenguajeGB['smsAvisoMG']()}𝙄𝙉𝙂𝙍𝙀𝙎𝙀 𝙐𝙉𝘼 𝙋𝙀𝙏𝙄𝘾𝙄𝙊𝙉 𝙊 𝙐𝙉𝘼 𝙊𝙍𝘿𝙀𝙉 𝙋𝘼𝙍𝘼 𝙐𝙎𝘼𝙍 𝙇𝘼 𝙁𝙐𝙉𝘾𝙄𝙊𝙉 𝘿𝙀𝙇 𝘾𝙃𝘼𝙏𝙂𝙋𝙏\n\n❏ 𝙀𝙅𝙀𝙈𝙋𝙇𝙊 𝘿𝙀 𝙋𝙀𝙏𝙄𝘾𝙄𝙊𝙉𝙀𝙎 𝙔 𝙊𝙍𝘿𝙀𝙉𝙀𝙎\n❏ ${usedPrefix + command} Recomienda un top 10 de películas de acción\n❏ ${usedPrefix + command} Codigo en JS para un juego de cartas`     
+if (!text) throw `*${lenguajeGB['smsAvisoMG']()}ᴘᴏʀ ꜰᴀᴠᴏʀ, ɪɴᴛʀᴏᴅᴜᴄᴇ ᴜɴᴀ ᴘᴇᴛɪᴄɪÓɴ ᴏ ᴄᴏᴍᴀɴᴅᴏ ᴘᴀʀᴀ ᴜᴛɪʟɪᴢᴀʀ ʟᴀ ꜰᴜɴᴄɪÓɴ ᴅᴇʟ ᴄʜᴀᴛ\n\n❏ ᴇᴊᴇᴍᴘʟᴏ ᴅᴇ ᴘᴇᴛɪᴄɪᴏɴᴇꜱ ʏ ᴏʀᴅᴇɴᴇꜱ\n❏ ${usedPrefix + command} Recomienda un top 10 de películas de acción\n❏ ${usedPrefix + command} Codigo en JS para un juego de cartas`     
 try {
 conn.sendPresenceUpdate('composing', m.chat)  
-let syms = `Actuaras como un Bot de WhatsApp el cual fue creado por GataNina-Li, tu seras GataBot-MD`
+let syms = `Actuaras como un Bot de WhatsApp el cual fue hecho por Brashkie, tu seras HamilyBot`
 async function getOpenAIChatCompletion(texto) {
 const openaiAPIKey = global.openai_key;
 let chgptdb = global.chatgpt.data.users[m.sender];
@@ -32,7 +32,7 @@ if (botIA222.data.choices[0].text == 'error' || botIA222.data.choices[0].text ==
 m.reply(botIA222.data.choices[0].text.trim());
 } catch {
 try {
-const syms1 = `Actuaras como un Bot de WhatsApp el cual fue creado por GataNina-Li, tu seras GataBot-MD.`;
+const syms1 = `Actuaras como un Bot de WhatsApp el cual fue hecho por Brashkie, tu seras HamilyBot.`;
 const fgapi1 = await fetch(`https://api-fgmods.ddns.net/api/info/openai?text=${text}&symsg=${syms1}&apikey=XlwAnX8d`);
 const fgjson1 = await fgapi1.json();
 if (fgjson1.result == 'error' || fgjson1.result == '' || !fgjson1.result) return XD; // causar error undefined para lanzar msg de error
