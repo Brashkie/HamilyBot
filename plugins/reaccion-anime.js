@@ -5,6 +5,6 @@ let haha = await res[Math.floor(res.length * Math.random())]
 conn.sendFile(m.chat, haha, 'error.gif', `_${command}_`, m)
 //conn.sendButton(m.chat, `_${command}_`.trim(), author, haha, [['SIGUIENTE | NEXT 🆕', `${usedPrefix + command}`]], m)    
 }
-handler.command = handler.help = ['kiss','pat','slap','cuddle','hug','bite','poke','lick']
+handler.command = handler.help = ['kiss1','pat','slap','cuddle','hug','bite','poke','lick']
 handler.tags = ['reaccion']
 export default handler
